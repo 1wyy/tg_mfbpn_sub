@@ -9,7 +9,50 @@ proxy-groups:
 - name: ✈️ ‍起飞
   type: select
   proxies:
+  - ⚡ ‍低延迟
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
+  - 🇨🇳 ‍中国
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻 ‍指定
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
   - DIRECT
+- name: ⚡ ‍低延迟
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id001
+  - 🇭🇰 香港 / A｜HK - 小白云
+  - 🇭🇰 香港 / B｜HK - 小白云
+  - 🇹🇼 台湾 / A｜TW - 小白云
+  - 🇹🇼 台湾 / B｜TW - 小白云
+  - 🇹🇼 TW｜海外用户 - 小白云
+  - 🇸🇬 新加坡 / A｜SG - 小白云
+  - 🇸🇬 新加坡 / B｜SG - 小白云
+  - 🇯🇵 日本 / A｜JP - 小白云
+  - 🇯🇵 日本 / B｜JP - 小白云
+  - 🇺🇸 美国 / A｜US - 小白云
+  - 🇺🇸 美国 / B｜US - 小白云
+  - ℹ️ 官网:cooc.wiki - 小白云
+  - 🇰🇷 韩国 / A｜KR - 小白云
+  - 🇰🇷 韩国 / B｜KR - 小白云
+  - 🇹🇭 泰国 / TH｜BIZ - 小白云
+  - 🇻🇳 越南 / VN | BIZ - 小白云
+  - 🇬🇧 英国 / UK | BIZ - 小白云
+  - 🇩🇪 德国 / DE | BIZ - 小白云
+  - 🇫🇷 法国 / FR｜BIZ - 小白云
+  - 🇷🇺 俄罗斯 / RU｜BIZ - 小白云
+  - 🇲🇾 马来西亚 / MY | BIZ - 小白云
 - name: 🛩️ ‍墙内
   type: select
   proxies:
@@ -25,11 +68,29 @@ proxy-groups:
 - name: 📺 ‍B站
   type: select
   proxies:
+  - 🇨🇳 ‍中国
+  - 🇭🇰 ‍香港
+  - 🇹🇼 ‍台湾
   - 🛩️ ‍墙内
+  - 👆🏻 ‍指定
+  - 👆🏻🇭🇰 ‍香港
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇨🇳 ‍中国
   - ✈️ ‍起飞
 - name: 🤖 ‍AI
   type: select
   proxies:
+  - 🇺🇸 ‍美国
+  - 🎏 ‍其他
+  - 👆🏻🇺🇸 ‍美国
+  - 👆🏻🎏 ‍其他
+  - 🇹🇼 ‍台湾
+  - 🇸🇬 ‍新加坡
+  - 🇯🇵 ‍日本
+  - 👆🏻 ‍指定
+  - 👆🏻🇹🇼 ‍台湾
+  - 👆🏻🇸🇬 ‍新加坡
+  - 👆🏻🇯🇵 ‍日本
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
 - name: 🌐 ‍未知站点
@@ -38,7 +99,100 @@ proxy-groups:
   - ✈️ ‍起飞
   - 🛩️ ‍墙内
   - 💩 ‍广告
+- name: 🇭🇰 ‍香港
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id002
+  - 🇭🇰 香港 / A｜HK - 小白云
+  - 🇭🇰 香港 / B｜HK - 小白云
+- name: 🇹🇼 ‍台湾
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id003
+  - 🇹🇼 台湾 / A｜TW - 小白云
+  - 🇹🇼 台湾 / B｜TW - 小白云
+  - 🇹🇼 TW｜海外用户 - 小白云
+- name: 🇨🇳 ‍中国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id004
+  - 🇭🇰 香港 / A｜HK - 小白云
+  - 🇭🇰 香港 / B｜HK - 小白云
+  - 🇹🇼 台湾 / A｜TW - 小白云
+  - 🇹🇼 台湾 / B｜TW - 小白云
+  - 🇹🇼 TW｜海外用户 - 小白云
+- name: 🇸🇬 ‍新加坡
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id005
+  - 🇸🇬 新加坡 / A｜SG - 小白云
+  - 🇸🇬 新加坡 / B｜SG - 小白云
+- name: 🇯🇵 ‍日本
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 100
+  proxies: &id006
+  - 🇯🇵 日本 / A｜JP - 小白云
+  - 🇯🇵 日本 / B｜JP - 小白云
+- name: 🇺🇸 ‍美国
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 15
+  tolerance: 300
+  proxies: &id007
+  - 🇺🇸 美国 / A｜US - 小白云
+  - 🇺🇸 美国 / B｜US - 小白云
+- name: 🎏 ‍其他
+  type: url-test
+  url: https://i.ytimg.com/generate_204
+  interval: 30
+  tolerance: 100
+  proxies: &id008
+  - ℹ️ 官网:cooc.wiki - 小白云
+  - 🇰🇷 韩国 / A｜KR - 小白云
+  - 🇰🇷 韩国 / B｜KR - 小白云
+  - 🇹🇭 泰国 / TH｜BIZ - 小白云
+  - 🇻🇳 越南 / VN | BIZ - 小白云
+  - 🇬🇧 英国 / UK | BIZ - 小白云
+  - 🇩🇪 德国 / DE | BIZ - 小白云
+  - 🇫🇷 法国 / FR｜BIZ - 小白云
+  - 🇷🇺 俄罗斯 / RU｜BIZ - 小白云
+  - 🇲🇾 马来西亚 / MY | BIZ - 小白云
+- name: 👆🏻 ‍指定
+  type: select
+  proxies: *id001
+- name: 👆🏻🇭🇰 ‍香港
+  type: select
+  proxies: *id002
+- name: 👆🏻🇹🇼 ‍台湾
+  type: select
+  proxies: *id003
+- name: 👆🏻🇨🇳 ‍中国
+  type: select
+  proxies: *id004
+- name: 👆🏻🇸🇬 ‍新加坡
+  type: select
+  proxies: *id005
+- name: 👆🏻🇯🇵 ‍日本
+  type: select
+  proxies: *id006
+- name: 👆🏻🇺🇸 ‍美国
+  type: select
+  proxies: *id007
+- name: 👆🏻🎏 ‍其他
+  type: select
+  proxies: *id008
 proxies:
+- {name: ℹ️ 官网:cooc.wiki - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇭🇰 香港 / A｜HK - 小白云, server: hk1.iepl.cooc.icu, port: 21881, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇭🇰 香港 / B｜HK - 小白云, server: hk2.iepl.cooc.icu, port: 22881, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇯🇵 日本 / A｜JP - 小白云, server: jp1.iepl.cooc.icu, port: 47100, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
@@ -47,8 +201,8 @@ proxies:
 - {name: 🇺🇸 美国 / B｜US - 小白云, server: usa2.iepl.cooc.icu, port: 32881, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇰🇷 韩国 / A｜KR - 小白云, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: aes-128-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇰🇷 韩国 / B｜KR - 小白云, server: kr2.iepl.cooc.icu, port: 35102, type: ss, cipher: aes-128-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
-- {name: 🇨🇳 台湾 / A｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
-- {name: 🇨🇳 台湾 / B｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
+- {name: 🇹🇼 台湾 / A｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
+- {name: 🇹🇼 台湾 / B｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇸🇬 新加坡 / A｜SG - 小白云, server: sg1.iepl.cooc.icu, port: 35105, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇸🇬 新加坡 / B｜SG - 小白云, server: sg2.iepl.cooc.icu, port: 35106, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇹🇭 泰国 / TH｜BIZ - 小白云, server: th.iepl.cooc.icu, port: 35613, type: ss, cipher: aes-128-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
@@ -58,7 +212,7 @@ proxies:
 - {name: 🇫🇷 法国 / FR｜BIZ - 小白云, server: fr1.iepl.cooc.icu, port: 35611, type: ss, cipher: aes-128-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇷🇺 俄罗斯 / RU｜BIZ - 小白云, server: ru.iepl.cooc.icu, port: 35612, type: ss, cipher: aes-128-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 - {name: 🇲🇾 马来西亚 / MY | BIZ - 小白云, server: mas1.iepl.cooc.icu, port: 35603, type: ss, cipher: aes-128-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
-- {name: 🇨🇳 TW｜海外用户 - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
+- {name: 🇹🇼 TW｜海外用户 - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: ebe1da17-41c9-4293-80fd-1b11fa0ce74c, udp: true}
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
