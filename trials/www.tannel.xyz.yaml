@@ -40,7 +40,7 @@ proxy-groups:
   - "🇭🇰 香港丨HKT丨流媒体\t - Tannel中继网络服务"
   - 🇹🇼 台湾A丨Hinet丨流媒体 - Tannel中继网络服务
   - 🇹🇼 台湾B丨Hinet丨流媒体 - Tannel中继网络服务
-  - 🇸🇬 新加坡A丨Lin丨流媒体 - Tannel中继网络服务
+  - 🇸🇬 新加坡A丨禁下载丨流媒体 - Tannel中继网络服务
   - 🇯🇵 日本A丨Lin丨流媒体 - Tannel中继网络服务
   - 🇯🇵 日本B丨BGP丨流媒体 - Tannel中继网络服务
   - 🇯🇵 日本CMI丨移动优化 - Tannel中继网络服务
@@ -137,7 +137,7 @@ proxy-groups:
   interval: 15
   tolerance: 100
   proxies: &id005
-  - 🇸🇬 新加坡A丨Lin丨流媒体 - Tannel中继网络服务
+  - 🇸🇬 新加坡A丨禁下载丨流媒体 - Tannel中继网络服务
 - name: 🇯🇵 ‍日本
   type: url-test
   url: https://i.ytimg.com/generate_204
@@ -199,7 +199,7 @@ proxies:
 - {name: 🇨🇦 加拿大丨多伦多 - Tannel中继网络服务, server: gy.zztannel.com, port: 62038, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇮🇳 印度丨孟买 - Tannel中继网络服务, server: gy.zztannel.com, port: 62002, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾B丨Hinet丨流媒体 - Tannel中继网络服务, server: gy.zztannel.com, port: 62005, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇸🇬 新加坡A丨Lin丨流媒体 - Tannel中继网络服务, server: gy.zztannel.com, port: 62033, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇸🇬 新加坡A丨禁下载丨流媒体 - Tannel中继网络服务, server: gy.zztannel.com, port: 62033, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本B丨BGP丨流媒体 - Tannel中继网络服务, server: gy.zztannel.com, port: 62035, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本CMI丨移动优化 - Tannel中继网络服务, server: gy.zztannel.com, port: 62031, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇺🇲 美国A丨圣何塞丨流媒体 - Tannel中继网络服务, server: gy.zztannel.com, port: 62032, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
