@@ -18,9 +18,9 @@ proxies:
 - {name: 🇹🇼 TW-台中1-2(Trojan) - 麻雀 Sparrow, server: nc12.twtc.dynu.net, port: 14656, type: trojan, password: e5e1df92-2972-4aad-814a-7c8c51d5580e, sni: nc12.twtc.dynu.net, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾 1 动画疯 - 西瓜皮是真的皮, server: xg-cm2.dx001.top, port: 19821, type: vmess, uuid: a72cd5b3-2cd1-3eac-a63d-df1216d7a941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾 2 动画疯 - 西瓜皮是真的皮, server: xg-ct2.dx001.top, port: 19822, type: vmess, uuid: a72cd5b3-2cd1-3eac-a63d-df1216d7a941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇹🇼 台湾 / A｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: 2d5890ec-b227-47ef-82f5-7b47d77980eb, udp: true}
-- {name: 🇹🇼 台湾 / B｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: 2d5890ec-b227-47ef-82f5-7b47d77980eb, udp: true}
-- {name: 🇹🇼 TW｜海外用户 - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 2d5890ec-b227-47ef-82f5-7b47d77980eb, udp: true}
+- {name: 🇹🇼 台湾 / A｜TW - 小白云, server: tw1.iepl.cooc.icu, port: 35109, type: ss, cipher: aes-256-gcm, password: 127ef931-1250-448e-b034-14c039c07d57, udp: true}
+- {name: 🇹🇼 台湾 / B｜TW - 小白云, server: tw2.iepl.cooc.icu, port: 35110, type: ss, cipher: aes-256-gcm, password: 127ef931-1250-448e-b034-14c039c07d57, udp: true}
+- {name: 🇹🇼 TW｜海外用户 - 小白云, server: tw.cooc.icu, port: 36881, type: ss, cipher: aes-256-gcm, password: 127ef931-1250-448e-b034-14c039c07d57, udp: true}
 - {name: 🇹🇼 台湾A丨Hinet丨流媒体 - Tannel中继网络服务, server: gy.zztannel.com, port: 62012, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 台湾B丨Hinet丨流媒体 - Tannel中继网络服务, server: gy.zztannel.com, port: 62005, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇹🇼 中转•台湾100•高速 - 飞翔吧, server: gy.58n.net, port: 59021, type: trojan, password: ed6ebf08-1d8d-3531-8cd7-38b8265dcdfa, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
