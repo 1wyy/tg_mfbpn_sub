@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
 proxies:
-- {name: 🇯🇵 日本A丨Lin丨流媒体 - Tannel中继网络服务, server: lt.zztannel.com, port: 62001, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本B丨BGP丨流媒体 - Tannel中继网络服务, server: zz.zztannel.com, port: 62035, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: 🇯🇵 日本CMI丨移动优化 - Tannel中继网络服务, server: lt.zztannel.com, port: 62031, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本A丨Lin丨流媒体 - Tannel中继网络服务, server: lt.dytannel.com, port: 62001, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本B丨BGP丨流媒体 - Tannel中继网络服务, server: zz.dytannel.com, port: 62035, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: 🇯🇵 日本CMI丨移动优化 - Tannel中继网络服务, server: lt.dytannel.com, port: 62031, type: vmess, uuid: 69786f60-d229-3557-bf18-15ad5fc5dc12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: 🇯🇵 日本 101 - 墙了个墙, server: jpvip101.qlgq.fun, port: 61239, type: trojan, password: 606573f8-1dd3-386a-bca5-17bf6f374276, sni: jpvip101.qlgq.fun, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: jpvip101}, udp: true}
 - {name: 🇯🇵 日本 102 - 墙了个墙, server: jpvip101.qlgq.fun, port: 61288, type: trojan, password: 606573f8-1dd3-386a-bca5-17bf6f374276, sni: jpvip101.qlgq.fun, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: jpvip101}, udp: true}
 - {name: 🇯🇵 日本 103 - 墙了个墙, server: jpvip101.qlgq.fun, port: 61237, type: trojan, password: 606573f8-1dd3-386a-bca5-17bf6f374276, sni: jpvip101.qlgq.fun, skip-cert-verify: true, network: grpc, grpc-opts: {grpc-service-name: jpvip101}, udp: true}
