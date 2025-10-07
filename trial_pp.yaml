@@ -121,20 +121,20 @@ proxy-providers:
       enable: true
       url: https://i.ytimg.com/generate_204
       interval: 30
-  TW:
-    type: http
-    url: https://raw.kgithub.com/1wyy/tg_mfbpn_sub/main/trials_providers/TW.yaml
-    interval: 180
-    path: trials_providers/TW.yaml
-    health-check:
-      enable: true
-      url: https://i.ytimg.com/generate_204
-      interval: 30
   HK:
     type: http
     url: https://raw.kgithub.com/1wyy/tg_mfbpn_sub/main/trials_providers/HK.yaml
     interval: 180
     path: trials_providers/HK.yaml
+    health-check:
+      enable: true
+      url: https://i.ytimg.com/generate_204
+      interval: 30
+  TW:
+    type: http
+    url: https://raw.kgithub.com/1wyy/tg_mfbpn_sub/main/trials_providers/TW.yaml
+    interval: 180
+    path: trials_providers/TW.yaml
     health-check:
       enable: true
       url: https://i.ytimg.com/generate_204
