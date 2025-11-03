@@ -127,7 +127,6 @@ proxy-groups:
   - 🇹🇼 TW｜海外用户 - 小白云
   - 🇸🇬 新加坡01 - 自由飞云
   - 🇸🇬 新加坡04 - 自由飞云
-  - 🇸🇬 [vip①]②新加坡 - MG Network
   - 🇸🇬 新加坡A丨Wap丨流媒体 - Tannel中继网络服务
   - 🇸🇬 新加坡丨备用 - Tannel中继网络服务
   - 🇸🇬 新加坡 101 - 墙了个墙
@@ -168,6 +167,7 @@ proxy-groups:
   - 🇸🇬 新加坡 / A｜SG - 小白云
   - 🇸🇬 新加坡 / B｜SG - 小白云
   - 🇯🇵 日本01 - 自由飞云
+  - 🇯🇵 [vip①]②日本 - MG Network
   - 🇯🇵 日本A丨Lin丨流媒体 - Tannel中继网络服务
   - 🇯🇵 日本丨备用 - Tannel中继网络服务
   - 🇯🇵 日本B丨BGP丨流媒体 - Tannel中继网络服务
@@ -678,7 +678,6 @@ proxy-groups:
   proxies: &id005
   - 🇸🇬 新加坡01 - 自由飞云
   - 🇸🇬 新加坡04 - 自由飞云
-  - 🇸🇬 [vip①]②新加坡 - MG Network
   - 🇸🇬 新加坡A丨Wap丨流媒体 - Tannel中继网络服务
   - 🇸🇬 新加坡丨备用 - Tannel中继网络服务
   - 🇸🇬 新加坡 101 - 墙了个墙
@@ -725,6 +724,7 @@ proxy-groups:
   tolerance: 100
   proxies: &id006
   - 🇯🇵 日本01 - 自由飞云
+  - 🇯🇵 [vip①]②日本 - MG Network
   - 🇯🇵 日本A丨Lin丨流媒体 - Tannel中继网络服务
   - 🇯🇵 日本丨备用 - Tannel中继网络服务
   - 🇯🇵 日本B丨BGP丨流媒体 - Tannel中继网络服务
@@ -1040,9 +1040,9 @@ proxies:
 - {name: 🇩🇪 德国new01（1倍率） - 快狗云, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: e9a0bb07-661e-4c55-b1a2-8cccfbb960e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
 - {name: 🇩🇪 德国new01优选（1倍率） - 快狗云, server: go.daluquan.top, port: 8080, type: vmess, uuid: e9a0bb07-661e-4c55-b1a2-8cccfbb960e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
 - {name: '🇺🇸 [vip①]美国1 - MG Network', server: 15.mamamajd.site, port: 23615, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-- {name: '🇸🇬 [vip①]②新加坡 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇭🇰 [vip①]①香港 - MG Network', server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇹🇼 [vip①]台湾1|解锁NF|2.5倍率 - MG Network', server: 19.mamamajd.site, port: 23619, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+- {name: '🇯🇵 [vip①]②日本 - MG Network', server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: ℹ️ www.mgjs.site最新域名，更新订阅 - MG Network, server: 3.mamamajd.site, port: 50003, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇮🇳 [vip①]印度1 - MG Network', server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 - {name: '🇩🇪 [vip①]德国1 - MG Network', server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 8a84525b-4688-363f-a6dd-0fe86348dde0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
