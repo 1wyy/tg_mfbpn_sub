@@ -2,7 +2,7 @@
 api_host  huaticloud.top
 name  一元云梯
 type  v2board
-更新订阅链接/续费续签失败  注册失败(pactxmm984@gmail.com): HTTPSConnectionPool(host='huaticloud.top', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff12443c640>: Failed to resolve 'huaticloud.top' ([Errno -2] Name or service not known)"))
+更新订阅链接/续费续签失败  注册失败(wnncyhdcc806@gmail.com): HTTPSConnectionPool(host='huaticloud.top', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f48907d7640>: Failed to resolve 'huaticloud.top' ([Errno -2] Name or service not known)"))
 
 [v.spwvpn.com#麻雀加速器]
 banned_domains  btcstar.site  miteon.com  965.tmmad.com  wj1.haihantnc.xyz  jkb.tmmad.com  zhangjie.studio  www.nm.pe  lplso.tmmad.com  adxp.haihantnc.xyz  maxamba.com  haihantnc.xyz  bccto.cc  lyx13.xyz  ipiso.tmmad.com  mail.wvwvw.tech  wfes.site
@@ -15,7 +15,7 @@ sub_url  https://v.spwvpn.com/api/v1/client/subscribe?token=89cb50cbe8c11489c354
 time  2024-05-31 13:40:44.117880+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  {'message': '邮箱或密码错误'}
+更新旧订阅失败  (https://v.spwvpn.com/api/v1/client/subscribe?token=89cb50cbe8c11489c354e6962385db98): 403 Forbidden '{\n "message": "token is error"\n}'
 
 [vipxgyun.com#西瓜皮]
 auto_invite  F
@@ -50,7 +50,7 @@ type  v2board
 banned_domains  disbox.org  psnator.com  uuf.me  youxiang.dev  mynanaimohomes.com  tmpnator.live  mydefipet.live  teml.net  yzm.de  end.tw  tmpbox.net  smartnator.com
 name  Itdog云
 type  v2board
-更新订阅链接/续费续签失败  注册失败(cshhvgzcp188@gmail.com): HTTPSConnectionPool(host='free.itdog.cloud', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff1244023e0>: Failed to resolve 'free.itdog.cloud' ([Errno -2] Name or service not known)"))
+更新订阅链接/续费续签失败  注册失败(ebzelmrha650@gmail.com): HTTPSConnectionPool(host='free.itdog.cloud', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f4890793370>: Failed to resolve 'free.itdog.cloud' ([Errno -2] Name or service not known)"))
 
 [531131.xyz]
 email  nvwyfmd748@gmail.com
@@ -60,14 +60,14 @@ sub_url  https://531131.xyz/api/v1/client/subscribe?token=15277e57f4c170ac0bbfc0
 time  2024-04-22 12:40:25.137211+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  HTTPSConnectionPool(host='531131.xyz', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=15277e57f4c170ac0bbfc03bd9334a31 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff11ca2bc40>, 'Connection to 531131.xyz timed out. (connect timeout=30)'))
+更新旧订阅失败  HTTPSConnectionPool(host='531131.xyz', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=15277e57f4c170ac0bbfc03bd9334a31 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f48905a52d0>, 'Connection to 531131.xyz timed out. (connect timeout=30)'))
 
 [yq1.jixunyou02.com]
 api_host  ww38.yq1.jixunyou02.com
 auth_path  user
 name  jixunyou02.com
 type  sspanel
-更新订阅链接/续费续签失败  注册失败(tuelftffd879@gmail.com): HTTPSConnectionPool(host='ww38.yq1.jixunyou02.com', port=443): Max retries exceeded with url: /user/register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff124401ff0>: Failed to resolve 'ww38.yq1.jixunyou02.com' ([Errno -2] Name or service not known)"))
+更新订阅链接/续费续签失败  注册失败(avcpqmr35@gmail.com): HTTPSConnectionPool(host='ww38.yq1.jixunyou02.com', port=443): Max retries exceeded with url: /user/register (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f4890792d40>: Failed to resolve 'ww38.yq1.jixunyou02.com' ([Errno -2] Name or service not known)"))
 
 [cloud.doushimeng.com#都是梦]
 api_host  ww38.cloud.doushimeng.com
@@ -79,13 +79,13 @@ sub_url  https://ww38.cloud.doushimeng.com/api/v1/client/subscribe?token=91d0a13
 time  2024-04-04 11:40:42.626295+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  HTTPSConnectionPool(host='ww38.cloud.doushimeng.com', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=91d0a13bf225246318cb638c9973e5e1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff124168760>: Failed to resolve 'ww38.cloud.doushimeng.com' ([Errno -2] Name or service not known)"))
+更新旧订阅失败  HTTPSConnectionPool(host='ww38.cloud.doushimeng.com', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=91d0a13bf225246318cb638c9973e5e1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f489023d990>: Failed to resolve 'ww38.cloud.doushimeng.com' ([Errno -2] Name or service not known)"))
 
 [www.yongdong.xyz#永动机]
 api_host  ww38.yongdong.xyz
 name  永动机
 type  v2board
-更新订阅链接/续费续签失败  注册失败(yvnhlqs842@gmail.com): HTTPSConnectionPool(host='ww38.yongdong.xyz', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'ww38.yongdong.xyz'. (_ssl.c:1017)")))
+更新订阅链接/续费续签失败  注册失败(xkidnyhzo240@gmail.com): HTTPSConnectionPool(host='ww38.yongdong.xyz', port=443): Max retries exceeded with url: /api/v1/passport/auth/register (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'ww38.yongdong.xyz'. (_ssl.c:1017)")))
 
 [cloud.colacloud.site#可乐云]
 buy  pass
@@ -96,7 +96,7 @@ sub_url  https://cloud.colacloud.site/api/v1/client/subscribe?token=a4b0cdcacb78
 time  2024-04-17 22:40:47.683163+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  HTTPSConnectionPool(host='cloud.colacloud.site', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=a4b0cdcacb78c2960bcf1bf25a0780e3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff1257ba7d0>: Failed to resolve 'cloud.colacloud.site' ([Errno -2] Name or service not known)"))
+更新旧订阅失败  HTTPSConnectionPool(host='cloud.colacloud.site', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=a4b0cdcacb78c2960bcf1bf25a0780e3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f489023f1f0>: Failed to resolve 'cloud.colacloud.site' ([Errno -2] Name or service not known)"))
 
 [portal.passgfw.top#WindyCloud]
 buy  period=month_price&plan_id=15
@@ -107,7 +107,7 @@ sub_url  https://portal.passgfw.top/api/v1/client/subscribe?token=d54287334e4c4a
 time  2024-09-21 07:41:10.235134+08:00
 type  v2board
 保存base64/clash订阅失败  'proxies'
-更新旧订阅失败  'NoneType' object is not subscriptable
+更新旧订阅失败  (https://portal.passgfw.top/api/v1/client/subscribe?token=d54287334e4c4affed9fc108557b31df): 403 Forbidden '{"status":"fail","message":"token is error","data":null,"error":null}'
 
 [freeflyingcloud.com]
 email  vnqapcm590@gmail.com
@@ -117,7 +117,7 @@ sub_info  0B  100G  2024-05-21 07:40:43+08:00  (剩余 100G 27 days, 14:58:08.02
 sub_url  https://freeflyingcloud.com/api/v1/client/subscribe?token=2c9f611af97f45965af6f3f52693a22b
 time  2024-04-21 07:40:49.829640+08:00
 type  v2board
-更新旧订阅失败  HTTPSConnectionPool(host='freeflyingcloud.com', port=443): Max retries exceeded with url: /api/v1/passport/auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff12426ee60>: Failed to resolve 'freeflyingcloud.com' ([Errno -2] Name or service not known)"))
+更新旧订阅失败  HTTPSConnectionPool(host='freeflyingcloud.com', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=2c9f611af97f45965af6f3f52693a22b (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f4880f734c0>: Failed to resolve 'freeflyingcloud.com' ([Errno -2] Name or service not known)"))
 
 [cloud.bigme.pro#bigme]
 api_host  www.bigme.pro
@@ -129,12 +129,12 @@ sub_info  0B  45G  2024-05-31 18:40:50+08:00  (剩余 45G 15:00:15.384365)
 sub_url  https://www.bigme.pro/api/v1/client/subscribe?token=76c217a009a7aa1b25007334d1137e30
 time  2024-05-30 18:40:51.030908+08:00
 type  v2board
-更新旧订阅失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (403 Forbidden '<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: \'3\',cZone: \'www.bigme.pro\',cType: \'non-interactive\',cRay: \'99a2f5270e00f44f\',cH: \'QjpVqe0dTDuSEhyCNcg8CGdgGy3H_BAoehmOWO0G17M-1762414982-1.2.1.1-Rnef7mhTYocN_2vRb0E0HNk2YHQ0CSnEJU96yrEUPYhoW_BOql__GVJlHMxrQBak\',cUPMDTk:"\\/api\\/v1\\/passport\\/auth\\/login?__cf_chl_tk=7thgzNg30oUADj3qw6n2LyjsURpi4dAmZysHrV2Oe4I-1762414982-1.0.1.1-M0XzwR.s3Rgb8yK43i86Ys0REdFqR5V6PYuaXlin.Hw",cFPWv: \'g\',cITimeS: \'1762414982\',cTplC:0,cTplV:5,cTplB: \'0\',fa:"\\/api\\/v1\\/passport\\/auth\\/login?__cf_chl_f_tk=7thgzNg30oUADj3qw6n2LyjsURpi4dAmZysHrV2Oe4I-1762414982-1.0.1.1-M0XzwR.s3Rgb8yK43i86Ys0REdFqR5V6PYuaXlin.Hw",md: \'IRK_3mpZu2tkvI9J.Hau1CIjYSjM7YbUXlMom9PfQg8-1762414982-1.2.1.1-JZ4e5ha.q0pktsgeU5YPTe.smfRVK1AMzxrGLzWkJZ2EFqBGlwFveqAuDjZF4hDsO9PBcEy_B6h2Vljnf4vuuC_Mnr.0CxDKTtP._qOqsTLmOZ42yovn9MUwUBTwbKuNBGC628DymDu7j7kH2HoFT_Uhtr4l_L2oa91.vw79ZqKpXQyM5lKz2yZpsR5UoOj_xyose5.oQHUXkPOQKqBzDrvwDrdWHMig_FRbwMGjoIy_JD5USNl.cEkXNL4RyyqklPDoeFS9OEO_ULKiAK1pZYntDJTS_4UIwrrHn4NI6hGL7k09wdlv4PFrfLEFC3.d9uqM77VyqsjLGKnibpvI8qrenKE1TnxgBgxeh0M4QEodXLpdJubGCqft1YmPudXKzsa9HE8iANx5vZNepxpJ0R7olH2y77X9AOSesbmZzeCXC_lo4ODBhyAtfAff6FE71xpDJBPfZIzjDqx8vPk5YCOV7PjZ2dsy_ic8qDrNR8eaFXDD_vlNXvcjjE2DJetiX5.s2X_Bh2H29OzoW6qhC2kyXqadkNUjgk_3uIjyJClYUReZewiosL4tPvjg109qePKgBsAt0nExHcvI7dmby3f3zxCljDAodj_eOZ.62ESlnPPs3U9N.crpuLBLY781ymgz8JaCh8ZNm50hfNcKzIU9FnqmRr5vAl9dY4cHWwzIk8fZTy_JxSjzBhU4nQhW1MDncQjhJooS9NEwlvL_Hr8Pf_RJnHsWG2oIY6NiynyXuh2jf12pwWjz3RpvkyxTIrxXC_O7X6PIq5g1FqEZFOIHKgpibg8wz2UmfB9UeUlUIsaZ18U0DJAt8xqYqdbtdZQDErsRgt.aTy2hllNZ6oIn7xHTaTLqea8_VITr2HzArQPm4hiEkqfN7yI5PFeLGzFnZYC90EqPwXynqU2pltxDruhUeZMv38H_LqOAljHYdVJKRQGJIjzQotPi.3vpY6oEMU0FtvfaFmiUWQTJIarGyqPy595uZXxA3UiKXKe9N3SjnMRgFac78Dfbr6L_RJ04yrrjymIIol4ADQRhu7DQEjsx.EVTBq94T2lBgHA\',mdrd: \'6j.GbZVO8B7iydZxf0IfmSnNaawpzgbrbVj8XId8Prk-1762414982-1.2.1.1-ulCHmUB39K5WyZ8IqqQ0AILAsUpF9eosQJgHWhKDwyzX_5p.ROThg38DpIZbeCze4_R7oqmkhQpXi2b0FKwXfZv1I.tjdMvBxJFg8KmaUkJHLwvChTR8pXtoHOLOJv1S1T9ljn7J573fldRbVB4iVnljezRfBGJN.wvbkEkAYqu6sjkA92ObAE3sn5obDaB.6OrlyJoQJM090PR9T4FMDObSifIINawxbS0lLJPfvAC0eLKs5AEvc4UjA6s5Or3geNKsRThCnz1PBAR1hjBKEx7Rg9kflAUzJ9UyP5k.WImq0ekoosGUitSQvruh8idENwIv7Bd6bM5xWSLWFmEPQNdsJH.9kK3b4M4Nqz6qVUAU09AyZR6UoV9H38ySnGgXynM2vg99zlCG.8Ayi9gfA2Q.AGWfPTLezWcgUtHO5GEvzcHwU_ZbXccNBXQ57MsWILs8UpqyKxwy35tifMYoruwY2Ou_fBlmVIZ1tJMbdf9Fz.2XALv26b0a_4DCQmT89ilE0jdIhCi84BK4RkO0XwId6Cf2d2LvNAe_A3B.tfepLrHMufzoVwDC4Ekm7LORbUhcXr2lThJLdcwUzxWd.ESxwgiTUBj1m_kUz9ym39w_513_4S6hhEoaVQdFR5x8OcDCYwdWzppglegO7Ey7mdlVRVO4lx7Ou8g0RNoyv.2q24jn5Q7DJt0T.1dAzh05lccCpJi0KcuiyGSIWryAXEasTecYhoQ4eT322PaaLkNa_4g8mFFtahRN6u79A2wruHzV6MpGt3rs1vubUbGKjc6hrQRC2v7.i5xz_vVXHMHQxDrqSjPhXhxnEUGRu.UG.z04uFnFtwosU.oo.MUCPwLpfrq0.s27hj0nokWjZmZycRUm.ZPUe.qpw1yMDA.m7pWeh_BGBZmtZzBYuDHR_1RtsvLwmXj_SOO3lbiGwYVpyzJ4IewGuStDtq._6trUJ4oM1TsPAIbi1hJV3yQa91LyQQdF1D4hUFqyNTXsrav3bOrKoFKRyMHXp_SfeiD9RT6xP1pVks7GhJARfukTEmleMa5_KgW8Tmiy5k__MuNULuz0EDkHsTIw8EabhU5udA8EFnGgp.B_6ljR42_44Z5H4e2rbI6xX4M_yA_xodkyL1UDaX5y_MsfmkXUvZNDxuagKqeV.EdUSuFBgIfmTPHcMnWDb2CBu1ULQdwjkDac0H6UL1h8H1Qigs171h7PdZU61tHOXW9KHeCOkNmm02FBKlXyiEIIf8_iz9YEpGct9Gwp6dQNLz0uxSUsoj0edQ9KkEv7Lx4CVd5gVSUiqIzv5F1wR7WXFzWjagaIlIRBrSuzh1ZT4MbKuQQLtuLQ0msS5UXtuJDalJdprdbkaPpXLStI.rfsS4inEK.nbqJZUTq8yF6bcfXMyj_cqSe.9kqeBdeKpybNd5jvsz6mpuaYWTo6n_E1T_SeaztcKKk_.Af1ftbNBSNAddEeymgUbdUph4OL8ZAKzthIoCh.sxFOMUbmZJ3Q1rWxN0JwjN7SgYH1SsWDIZgvEqlFfPNyeVqrxxhYsn6TJFP93sY6T0a9glQ9ZqzO9bSVOMimWFapXwc0POC.EHaFR_rifVD_8x02eubJAJONIQhkmbA1vzf9p.YfLKavBSovaejfYLUIC.iTVf_Ig__g.Y3B0CN4_kG9VqWumhq5gSEYtWPjsV_OcwPRgQ8.Hsw11XjJN.CuxqDjIc3WAJCX53.XxXiasvnF8hUTB1YmyEUdHPcaEwm5_4nLFdy1i2FHlSSj.2VF5hd8Dh_0GPKtlgKTlapg0xLW05yTIOmtpEXMlmGGwDy1uOua8HHStQCRI4ViijwdJXksjRYE2EOz5EQPJvqu7klhMQqgJAyXfU_WxQCywTn7Gfng2S8L6rvVNm_c5SRMudI.GWLd3V6S5iPt7mrgqPGP_w6zs50nBxMufPWApPC1q00wTtuv4adO9n5xyfGZxf05_iasnb2pN3eh0xnLKkZojlTnRUwbvhijHJOZH2OgoeZLFrbiYVVrcF7c5M8i3lX9wZiVKRNL.dibei50nkeYKCUczboCZbZVa12tGb4.hCIuYUQjzBBLld8SQ3nRAB2czAngGLMoWMmatHVpCrlF.PCVxXu9AaQDzWBFFlGqIVMurKl857SvoUNswHlFyAZYKZmJ34ZhRhI5mzHR8gdG9ELiCvvRnwK_EOn11_m7VAXVNNuQQOkq9pNxAO5UCrG8X7x5WiB50uGYLMyklKK0qPrY2csuaXj8wNIxT1qVC1o9UgFTWDd_0Rp2PyUEeGSIVPoVEoeyapUEkfcuGyPg02ItvTYhs6JTdqy6c._SqbpT_Ta6EdJUtiZ9l0j6GjQdVZpeBqbdgMXanmkv4uIom3siB7VmWfN6FtrVLT3mJ1ov7sm8xyvrlqk0Y_MWQxeMJ_GJU_87WOauXHoN4nLoKwGtIAbmV0wKbqt4jrIJqlsLhjEw2ObJZbmICjwVtvA_rNjcINHeozuQOP72AkW2TDzF3WiZ8HX7JFvV.VNhJhNv7U6FCMsOKEmQGxFjMNkoGEL4kRqIq4kvZoWFFEBt064dxhBaEy_9ix9wtg\',};var a = document.createElement(\'script\');a.src = \'/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=99a2f5270e00f44f\';window._cf_chl_opt.cOgUHash = location.hash === \'\' && location.href.indexOf(\'#\') !== -1 ? \'#\' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === \'\' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(\'?\') !== -1 ? \'?\' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\\/api\\/v1\\/passport\\/auth\\/login?__cf_chl_rt_tk=7thgzNg30oUADj3qw6n2LyjsURpi4dAmZysHrV2Oe4I-1762414982-1.0.1.1-M0XzwR.s3Rgb8yK43i86Ys0REdFqR5V6PYuaXlin.Hw"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(\'head\')[0].appendChild(a);}());</script></body></html>')
+更新旧订阅失败  (https://www.bigme.pro/api/v1/client/subscribe?token=76c217a009a7aa1b25007334d1137e30): 403 Forbidden '<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: \'3\',cZone: \'www.bigme.pro\',cType: \'non-interactive\',cRay: \'99a35a4bcda0d2ec\',cH: \'E8PMoOPOkuEfrhoTQalvv9uyQ1un_CT0FFKh8LcrU3c-1762419125-1.2.1.1-4qzE38al9om2.MZPCgsXcVk4N_GQpMtDBAw4Z8z1C1JKuwioZl69FVTlThUjY5.5\',cUPMDTk:"\\/api\\/v1\\/client\\/subscribe?token=76c217a009a7aa1b25007334d1137e30&__cf_chl_tk=DSOyTjPeInwKiFoTiGLCJnBom4olnBBRDPk8w0SLmR0-1762419125-1.0.1.1-Lk2bleDTgCtIiU41PXyZmceQErIPUlFjjD5U.TF5GOI",cFPWv: \'g\',cITimeS: \'1762419125\',cTplC:0,cTplV:5,cTplB: \'0\',fa:"\\/api\\/v1\\/client\\/subscribe?token=76c217a009a7aa1b25007334d1137e30&__cf_chl_f_tk=DSOyTjPeInwKiFoTiGLCJnBom4olnBBRDPk8w0SLmR0-1762419125-1.0.1.1-Lk2bleDTgCtIiU41PXyZmceQErIPUlFjjD5U.TF5GOI",md: \'Tsfihj96En6fB.UuQtOECwRh8sCdLL2Y.yoe_dUH6Qw-1762419125-1.2.1.1-HnLq.weZHo6n8scR_vMHXYyaXQpz6uEhLMjYIpmcFT05jSN6nfJnds1QbJUZZCpkDVDCnt45jbJIIFxMYM5rNsb1EV1iHEa4Nth3_Knb28bEgoVC2WhVblqdEKtBa84O9nqCD8JhYgEPScVXUXOdRYZ4pkYqfXywfwr_uO7kGihoD82CVHYZ9RJDbsbG3KOVtisMYw0Vla_AL69plHM3P1D5R9aC2czjI2AL3zq34M5aOIRvxagds0CNcgi9P9YqNVeJ2jQKOhcyQu_rTT87r0TokhzWjwi23iseIQIdo5YJDLmnkApLTFVS7qP85zWS0Ko_zbcyMkg4uvy5lk5fqKY_f_epFrveY.IlyW5Dtt5lbLDTDARBJhC2k1yveCRlKj.agMupyFfLIpL6eVYW3zsJhJMpW7KorXWdaj8p4SZlb_SS4qdHOjHMRid4T3q5LZjKclZZNwMbn6HpdgFD.nrDa2N747OvhZBiMewWgvBsEsi0sWfZ1HW3b2PSu4T5RQVRsm29XLz8qv20AFP2kScUvpko7YHTdvvLHavex0gMIz6fHiKkK958RhQWbLQv8e4aJwE.q8ujfgHs6eymchaFQ6SyQrN9.Y4DAV90Ihblg90DS9YcFR6QdiHvmlFs9yfLdDfl6w_GXt24Q8AiywvpiCNEiT5DJFen.IHuPiNVePETVSwqdOfWC6zoMHprWmTERKO0K_skG2QYtlSmCBpsskyGRHmVj75JB5pwFn_kKpLlAyqXoVyR_XdMq.3MheoxpoBYmXA4ObtFQePPtbalL6bTjr53QgP8rZpu6Cl0aKdW0Kw0mGnscD.wDaHASFCAMAbh6Ie2KTHu2x3Er.7JesoXsHG_E9Z6cHqFRkoHKs8zIofju7Rho5PX.wLZ8LePcftnmsYvM0SlMhXWsDWSHXg9ecZbM_BNjD2UtRwSYX0EfvJadgz9nw.MpdSLlpGeG7ZbOzZ62vVIduIjTSPmBEml5N6YLpoyU7YqNrg\',mdrd: \'C3A5smEwyTqFjcBW7THjwZDiKveVlg7vpzfFGE7K2vQ-1762419125-1.2.1.1-2VriiHhxDnEnMQ_fh0EAViC7wvV8LtDPk26zDeMnRibuh_ErOK1arMsf9OJMuFKCx9Z.XAUR6pBJE7jZ.uhxdS3wrgLzFjWhD457xZEgpowsuCwyf.ipO0ikgUErVwpc5.EhR55vsU5ocZj4CZBDj3PbOTgGwtJTTkjMCzXDuVarv28qePDTGK0gDPOZL7AnIK3Auo0ohYHRnt62lihljKlhFHmvQv6NBeXNWDym7kCZlU2y7rYp8iWCKRr7RegNHjh7oPnhuB0MjVAsAONLuuH0L.IOmeumaTyKqyM8YjVQ1.aR9yPjoFaUjasxxZ8QZOBdeqV09Fjv8VeK5J9ONN6xUiNRzOHQ4gLQi2m3Tm1vSXVzBXm2dh3yY4ZBeGnbpRetTpbSmft_nW1B_QhFLGDsZ5swvHc2DRxcA6EWJhp4bde2jXkONLkP6zdHtH0_.DUNu9Csnl57OGWO40mZ9bnK4o06M1A6vALrYm_mZWA.ZXARSpYCtHX3VJPDVavO0wp2Soi7v11bzV9AxEHnhfEfgX9Zzs8jw.CFj78Yasxdc8FrdaGCbhUGupxcSRRUEHo0Imcr9jGkQYC9E54eX7GjS4rsA8fBU4bV3JAlxYuQieVri2vhOhGrGZ7C3.8YF3E2YoLOc2x2fWAPZkxPjW1iylVgbmzVfMgqwASBN2vIj9sZUIFRwgYGrLoLX8lDSl2ZQLbJ0nWQj1ImhZGHjj7mOCjVFawJ4WirhuZcBtT79sHq.pRoL3PsTrkjpf5IJefdy7Ni81ZgcANaCOWZIXP8Vuk702QznW2.1tC3mEmh0beoYSqVzrx0aYmxp0TTNynuM2LuP28ejB01QKsCCIf6N2jeaVQ7BcINJHhaIusMtJ2MPwpMeL4nHrtEOfVTHB_LOq3FKLCEjWQWoU69SKum1liODkM4fNEpQt0yJfXP1N_QKOngO96_0Rhgg2yxD3OIe5Esj2jaokZ6ppFpMg0GzJBszDZswf2qf3_buL0X4kMDVGrVFrVu_0g8tfXMgjJ0bAzZJgmRoqf7r70I8BPsVUoeZ6vtQmZJqQ_SHY8ACyu60iPhdeoBpI9DAsGLVEKEAJhZGST_tXK51BK6ehpJ1LLhlSc25hFQWo8JPVa7bE5dDJ7s5ZoTE.No_5t0fMhw0PIiyq.lsiAHvv.q3JI.bGE7dm4qm_Xg0YcO7LYjpa4_lFSPcrUVaF5cltUrenyrRMjIY9GP.sFl3Tqnn_uqzNy5jQRf0wCH1p.XnGG2_E6yHoO8dJ71kWQTd0VriFYd44eZHSV5xa19EEtak1vWCgbx_rdv1LUW.9WYZBoZnjIvi1d050A5WrVX5mSZ0xrxUURpBEm8fBf8xkzoUNg7MTMM0wzhuDLPwQI8wennx104vUG8K5Go9GWY4CFkfyq7PscavGKWffydsktDGCP2IADzkxJKUyz4uji.TIkuVRhaG80ZFwp6M51PxhgFJ4ZRDiGtkaYrc9vvTHQAhE9kf22GPsIceW9AsYV8f9b892VmS05yj28.irwZB_vzBUMl558KChLqFjEJUP_PzphK7lIjef_TuCWhEX_rGvCoJ.Z2dYvO7o0lz4bbcS2_j4BrUex8tch6b9SMGDCzghkHc_VXArArdpfzQQd3IksDXLZhbz8GL7Ez4rz3Jbt1X9MpVqPNxy9kacwLPbviFJlMZBJnewT0o3itSUuHYtHtSVRRQG0frG3_1emZyMIQCRYNjloMj3T80iyPlT8P3LHLyUhcB2npzGSoHdWbN6FgZBCdF8OmIKPDt.WnK_q0lU0uuCu0jgLznZ6OQ_T8BXWZCw9jEqAnU4qzJo81slFK8o_7.3HnBuu5MtrlPBgMymKIlpqdH_oCw.To7X3qp1UFYvrysPsvgOwmnCxLlEo__tIaUsNh.urxweCK4KOlNM38y2iM1QtQV_3FjFgmeR0A9AGkS7GwdCXHGW5YUCqEV_2dJYf5vlRVD__Oh0alduRW1i7ix3ROII0MzFttYJVHSUjMMBtUsWhWjXs7Kgt4Cusf7fD9eYRVX0q32YPGHlC0VvT8W4czkNz2Bo492WlE4MSB4zxwzbTlRPujy_kvPao06dJZwAuoa.qvjIe.Oz2xWNzwUEn.XLk9rx6iH2cbVeig2Qbst2USEY1Bl0cRW.1bIMEEK5SNJdjcuyWBuWEkfUDz6wdQd7aBAzJiOPMolPYJtoMUzqH9y9EjLQIoHyFNbtwp2F7a5Hwu3M4V2MHm7KXbXr79doZO8pPK2H46iHed3Q2d835Cd8jA_z1OiFZgXVZsNUGt4E.TvSYwNLz6AGUMARVFX7rd1YNdLGwWFu3q2GRVcjgFuCbZzzwUSiCZt07iy7mjAFDAltBC\',};var a = document.createElement(\'script\');a.src = \'/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=99a35a4bcda0d2ec\';window._cf_chl_opt.cOgUHash = location.hash === \'\' && location.href.indexOf(\'#\') !== -1 ? \'#\' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === \'\' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(\'?\') !== -1 ? \'?\' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\\/api\\/v1\\/client\\/subscribe?token=76c217a009a7aa1b25007334d1137e30&__cf_chl_rt_tk=DSOyTjPeInwKiFoTiGLCJnBom4olnBBRDPk8w0SLmR0-1762419125-1.0.1.1-Lk2bleDTgCtIiU41PXyZmceQErIPUlFjjD5U.TF5GOI"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(\'head\')[0].appendChild(a);}());</script></body></html>'
 
 [pigvip.xyz]
 name  猪网-PIGVIP
 type  v2board
-更新订阅链接/续费续签失败  注册失败(zwoglgnh51@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Method Not Allowed '')
+更新订阅链接/续费续签失败  注册失败(nowadpvhu193@gmail.com): 解析 json 失败: Expecting value: line 1 column 1 (char 0) (405 Method Not Allowed '')
 
 [xn--36qvoh19mwpe.xyz]
 
@@ -149,7 +149,7 @@ sub_url  https://ww38.csyun.xyz/api/v1/client/subscribe?token=224ae83d9ed2e7aa1a
 time  2024-09-02 07:40:49.717906+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (403 Forbidden '<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
+更新旧订阅失败  (https://ww38.csyun.xyz/api/v1/client/subscribe?token=224ae83d9ed2e7aa1ab648ef78510069): 403 Forbidden '<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n'
 
 [www.kuaidog001.top]
 banned_domains  mydefipet.live  tmail.ws  psnator.com  smartnator.com  tmpnator.live  linshiyou.com  mynanaimohomes.com  youxiang.dev  bareed.ws
@@ -160,7 +160,7 @@ sub_info  0B  100G  2024-07-03 00:40:24+08:00  (剩余 100G 19 days, 5:59:58.988
 sub_url  https://www.kuaidog001.top/api/v1/client/subscribe?token=9d436b035616a88aeef9aab5f5a1aaf5
 time  2024-06-03 00:40:23.662957+08:00
 type  v2board
-更新旧订阅失败  HTTPSConnectionPool(host='www.kuaidog001.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=9d436b035616a88aeef9aab5f5a1aaf5 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff12416b760>: Failed to resolve 'www.kuaidog001.top' ([Errno -2] Name or service not known)"))
+更新旧订阅失败  HTTPSConnectionPool(host='www.kuaidog001.top', port=443): Max retries exceeded with url: /api/v1/passport/auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f4880e6b490>: Failed to resolve 'www.kuaidog001.top' ([Errno -2] Name or service not known)"))
 
 [cn.luonan.me]
 
@@ -172,7 +172,7 @@ sub_url  https://cloud.fanqiecloud.top/api/v1/client/subscribe?token=103a6dbebdf
 time  2024-04-06 14:40:46.061981+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  HTTPSConnectionPool(host='cloud.fanqiecloud.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=103a6dbebdf0704b3f84cb01f12bbcef (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff12426efe0>: Failed to resolve 'cloud.fanqiecloud.top' ([Errno -2] Name or service not known)"))
+更新旧订阅失败  HTTPSConnectionPool(host='cloud.fanqiecloud.top', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=103a6dbebdf0704b3f84cb01f12bbcef (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f489023ca90>: Failed to resolve 'cloud.fanqiecloud.top' ([Errno -2] Name or service not known)"))
 
 [www.tannel.xyz]
 auto_invite  F
@@ -189,7 +189,7 @@ type  sspanel
 保存base64/clash订阅失败  string indices must be integers
 保存订阅信息失败  no sub info
 尝试签到失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
-更新旧订阅失败  (https://www.tannel.xyz/link/5CGPwzX2TR6LNnOt?sub=3): 403 Forbidden '{"status":"fail","message":"token is error","data":null,"error":null}'
+更新旧订阅失败  解析 json 失败: Expecting value: line 1 column 1 (char 0) (404 Not Found '<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n')
 
 [www.qlgq.top]
 api_host  ww38.qlgq.top
@@ -204,8 +204,8 @@ sub_info  0B  888G  2024-12-16 23:41:31+08:00  (剩余 888G 23:59:56.672916)
 sub_url  https://ww38.qlgq.top/link/8cd6cb896f8b7d25?clash=1#墙了个墙
 time  2024-12-15 23:41:32.494680+08:00
 type  sspanel
-尝试签到失败  HTTPSConnectionPool(host='ww38.qlgq.top', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff12443ee00>: Failed to resolve 'ww38.qlgq.top' ([Errno -5] No address associated with hostname)"))
-更新旧订阅失败  HTTPSConnectionPool(host='ww38.qlgq.top', port=443): Max retries exceeded with url: /link/8cd6cb896f8b7d25?clash=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff1243d5150>: Failed to resolve 'ww38.qlgq.top' ([Errno -5] No address associated with hostname)"))
+尝试签到失败  HTTPSConnectionPool(host='ww38.qlgq.top', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f4890793280>: Failed to resolve 'ww38.qlgq.top' ([Errno -5] No address associated with hostname)"))
+更新旧订阅失败  HTTPSConnectionPool(host='ww38.qlgq.top', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f489023ee00>: Failed to resolve 'ww38.qlgq.top' ([Errno -5] No address associated with hostname)"))
 
 [bee.sulepay.com]
 auto_invite  F
@@ -219,8 +219,8 @@ sub_info  0B  0B  2024-04-20 10:06:19+08:00  (剩余 0B -19 days, 17:25:28.62374
 sub_url  https://bee.sulepay.com/link/vT1PRozckB0X2N9w?clash=1
 time  2024-03-21 10:06:21.875793+08:00
 type  sspanel
-尝试签到失败  HTTPSConnectionPool(host='bee.sulepay.com', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff124403850>: Failed to resolve 'bee.sulepay.com' ([Errno -5] No address associated with hostname)"))
-更新旧订阅失败  HTTPSConnectionPool(host='bee.sulepay.com', port=443): Max retries exceeded with url: /link/vT1PRozckB0X2N9w?clash=1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff12416b520>: Failed to resolve 'bee.sulepay.com' ([Errno -5] No address associated with hostname)"))
+尝试签到失败  HTTPSConnectionPool(host='bee.sulepay.com', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f48907d5f30>: Failed to resolve 'bee.sulepay.com' ([Errno -5] No address associated with hostname)"))
+更新旧订阅失败  HTTPSConnectionPool(host='bee.sulepay.com', port=443): Max retries exceeded with url: /auth/login (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f489038bbe0>: Failed to resolve 'bee.sulepay.com' ([Errno -5] No address associated with hostname)"))
 
 [aa.dabai.in]
 banned_domains  tmpbox.net  guerrillamail.net  tmpeml.com  tmails.net  moakt.cc  spam4.me  tmpmail.org  linshiyou.com  guerrillamail.com  tmpmail.net  disbox.org  tmail.ws  bareed.ws  bccto.cc  moakt.co  moakt.ws  teml.net  disbox.net  sharklasers.com
@@ -235,7 +235,7 @@ type  sspanel
 保存base64/clash订阅失败  string indices must be integers
 保存订阅信息失败  no sub info
 尝试签到失败  {'ret': 0, 'msg': '邮箱不存在'}
-更新订阅链接/续费续签失败  发送邮箱验证码失败(ymvpieuu535@51788.top): {'ret': 0, 'msg': '非法请求'}
+更新订阅链接/续费续签失败  发送邮箱验证码失败(jtnqzil273@guerrillamail.org): {'ret': 0, 'msg': '非法请求'}
 
 [www.flybar4.cc]
 banned_domains  disbox.org  bareed.ws  moakt.co  tmpmail.net  psnator.com  moakt.ws  mydefipet.live  tmpmail.org  zhangjie.studio  tmails.net  tmail.ws  smartnator.com  disbox.net  femailtor.com  xxxhi.cc  lista.cc  snapmail.cc  nespressopixie.com  mynanaimohomes.com  muatoc.com  965.tmmad.com  tmpnator.live  grr.la
@@ -248,8 +248,8 @@ sub_info  786.1M  10.15G  2025-06-05 15:44:52+08:00  (剩余 9.386G 0:01:17.7825
 sub_url  https://www.flybar4.cc/link/zpI7pMnM2JfKlewG?sub=3
 time  2025-06-04 15:44:55.705184+08:00
 type  sspanel
-尝试签到失败  HTTPSConnectionPool(host='www.flybar4.cc', port=443): Max retries exceeded with url: /auth/login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff1243d5720>, 'Connection to www.flybar4.cc timed out. (connect timeout=30)'))
-更新旧订阅失败  HTTPSConnectionPool(host='www.flybar4.cc', port=443): Max retries exceeded with url: /auth/login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff11ca2b0d0>, 'Connection to www.flybar4.cc timed out. (connect timeout=30)'))
+尝试签到失败  HTTPSConnectionPool(host='www.flybar4.cc', port=443): Max retries exceeded with url: /auth/login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4880e680a0>, 'Connection to www.flybar4.cc timed out. (connect timeout=30)'))
+更新旧订阅失败  HTTPSConnectionPool(host='www.flybar4.cc', port=443): Max retries exceeded with url: /auth/login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7f4880c7a980>, 'Connection to www.flybar4.cc timed out. (connect timeout=30)'))
 
 [haituncloud.xyz]
 
@@ -260,7 +260,7 @@ email  rvzrauvhy117@gmail.com
 last_checkin  2025-11-06 15:42:43.298168+08:00
 name  MG Network
 node_n  11
-sub_info  0B  5.607G  2025-11-08 16:42:43+08:00  (剩余 5.607G 2 days, 0:59:58.703612)
+sub_info  0B  5.607G  2025-11-08 16:42:43+08:00  (剩余 5.607G 1 day, 23:50:46.472763)
 sub_url  https://aa.mgnet.sbs/link/guqhbzdy4dtbxYMw?sub=3
 time  2025-11-06 15:42:43.624494+08:00
 type  sspanel
@@ -276,4 +276,4 @@ sub_url  https://cooc.cloud/api/v1/client/subscribe?token=fb23980bad30df57eb3d6c
 time  2024-05-08 12:40:49.023063+08:00
 type  v2board
 保存base64/clash订阅失败  'NoneType' object is not iterable
-更新旧订阅失败  HTTPSConnectionPool(host='cooc.cloud', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=fb23980bad30df57eb3d6ce02ef20cc9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7ff124327940>: Failed to resolve 'cooc.cloud' ([Errno -5] No address associated with hostname)"))
+更新旧订阅失败  HTTPSConnectionPool(host='cooc.cloud', port=443): Max retries exceeded with url: /api/v1/client/subscribe?token=fb23980bad30df57eb3d6ce02ef20cc9 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f489023d240>: Failed to resolve 'cooc.cloud' ([Errno -5] No address associated with hostname)"))
